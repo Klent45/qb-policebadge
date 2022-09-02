@@ -110,6 +110,9 @@ AddEventHandler('badge:shot', function(playerID)
 		if x == 2560 and y == 1440 then
 			posx, posy = 0.11, 0.27
 			width, height = 0.06, 0.1
+		elseif x == 1920 and y == 1200 then
+			posx, posy = 0.1289, 0.325
+			width, height = 0.062, 0.110
 		elseif x == 1920 and y == 1080 then
 			posx, posy = 0.12, 0.35
 	 		width, height = 0.07, 0.14
