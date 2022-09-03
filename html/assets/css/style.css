@@ -19,7 +19,7 @@ p {
 }
 
 #id-card {
-  position: relative;
+  position: absolute;
   display: none;
   margin: 280px 1400px 0 0;
   left: 10vh;
@@ -34,8 +34,33 @@ img {
   left:2px;
   top:5px;
 }
-
+#grade {
+  font-weight: bolder;
+  font-size: 18px;
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: none; 
+  color: #000000;
+}
 #name {
+  font-weight: bolder;
+  font-size: 18px;
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: none; 
+  color: #000000;
+}
+
+#mat {
+  font-weight: bolder;
+  font-size: 18px;
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: none; 
+  color: #000000;
+}
+
+#birthdate {
   font-weight: bolder;
   font-size: 18px;
   font-style: normal;
@@ -46,14 +71,17 @@ img {
 
 #inline {
   position: absolute;
-  top: 279px;
-  left: 60px;
+  top: 230px;
+  left: 50px;
 }
 
 #dob {
-  position: absolute;
-  left: 0;
-  width: 100px;
+  font-weight: bolder;
+  font-size: 18px;
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: uppercase; 
+  color: #000000;
 }
 
 #sex {
@@ -65,7 +93,7 @@ img {
   position: absolute;
   bottom: 0px;
   left: 0px;
-  color: #00000000;
+  color: #000000fd;
   font-size: 19px;
   text-decoration: none;
   font-style: normal;
