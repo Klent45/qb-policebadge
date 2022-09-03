@@ -1,9 +1,15 @@
 const open = (data) => {
   $('#name').css('color', '#282828');
+  $('#dob').css('color', '#282828');
+  $('#mat').css('color', '#282828');
+  $('#birthdate').css('color', '#282828');
+  $('#signature').css('color', '#282828');
 
+  $('#mat').text(data.mat);
   $('#name').text(data.name);
-  $('#dob').text(data.dateofbirth);
-  $('#signature').text(data.name);
+  $('#dob').text(data.dob);
+  $('#birthdate').text(data.birthdate);
+  $('#signature').text(data.signature);
 
   $('#id-card').css('background', 'url(assets/images/lspd.png)');
 
