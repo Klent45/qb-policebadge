@@ -10,7 +10,7 @@ Display police badge as officer to other civilian.
 
 ![specialbadge](https://user-images.githubusercontent.com/66751192/137593547-f36d52d3-34e7-4369-abea-bdb6876696c6.png)
 
-**I use 1920x1200 screen, adapt in cl_badge.lua for your screen because I don't have the other resolutions so I couldn't do it
+**I use 1920x1200 screen, adapt in cl_badge.lua for your screen because I don't have the other resolutions so I couldn't do it**
 
 Between lines 111 and 166
 
